@@ -1,0 +1,38 @@
+/* ==============================
+   desktop.css — large screens
+   ============================== */
+
+body {
+  font-size: 18px;
+}
+
+.container {
+  width: 85%;
+}
+
+.nav-list li {
+  margin-left: 18px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+}
+
+/* Example 2-column layout for projects */
+.project {
+  overflow: hidden;
+}
+
+.project h3 {
+  float: left;
+  width: 30%;
+}
+
+.project p {
+  float: right;
+  width: 65%;
+}
