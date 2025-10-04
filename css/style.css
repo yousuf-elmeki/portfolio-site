@@ -187,3 +187,21 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* Centering containers and homepage content */
+.container {
+  max-width: 1000px;  
+  margin: 0 auto;     
+  padding: 0 20px;    
+}
+
+h2, p {
+  text-align: center; 
+
+.nav-bar {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
